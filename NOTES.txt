@@ -1,2 +1,0 @@
-1. My first commit.
-2. My Git At Home

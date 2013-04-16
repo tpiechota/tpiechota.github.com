@@ -1,4 +1,0 @@
-WebDevRepo
-==========
-
-Web Development Projects
