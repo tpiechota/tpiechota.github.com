@@ -167,7 +167,10 @@ div.content {
 .current {
 	  color: #ED4732;
 }
-
+.about-page, #twitter-page, .portfolio-page {
+	margin-bottom: -70px;
+	border: none;	
+}
 /*THE HOME PAGE*/ 
 .home-page {
 	background-color: #3097b9;
