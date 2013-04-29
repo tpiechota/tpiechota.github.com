@@ -17,7 +17,7 @@
     width: 100%;
 }
 .overlayPattern {
-    background: url("../img/background_overlay.png") repeat fixed 0 0 transparent;
+    background: url("../img/parallax_overlay.png") repeat fixed 0 0 transparent;
 }
 .parallaxPattern {
     background: url("../img/parallax_overlay.png") repeat fixed 0 0 transparent;
@@ -78,7 +78,7 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 .contentBox { 
 	margin: 10px 200px 20px 300px; 
 	text-align:justify; 
-	background: url(../img/img/purplegrain.png) repeat #333; 
+	background: url(../img/parallax_overlay.png) repeat #333;
 	color: #fff; 
 	width: 500px; 
 	padding: 10px 20px; 
@@ -100,7 +100,7 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 	position: relative; 
 	margin: 0 auto; 
 	/*border-top: 1px solid rgba(255,255,255,0.3); */
-	border-bottom: 1px solid rgba(0,0,0,0.4); 
+	/*border-bottom: 1px solid rgba(0,0,0,0.4);*/
 	box-shadow: inset 0 0 50px rgba(0,0,0,0.8);
 }
 
@@ -109,7 +109,13 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 	background: url(../img/bg3.jpg) 50% 0 repeat-y; background-size: auto;}
 #one1 { /*	background-color: #3097b9;
 	box-shadow: inset 0 250px 600px #59C1D9, 0px 0px 60px rgba(0, 0, 0, 0.4);*/
-	background: url(../img/birds2.png) 50% 0 repeat-y; background-size: auto;}
+	/*background: url(../img/bg4.jpg) 0 0 repeat-y; background-size: auto;*/
+    background-image: url(../img/aurora.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: bottom;
+}
+
 #two { background: url(../img/birds1.png) 50% 0 no-repeat fixed; }
 #three { background: url(../img/bg3.jpg) 50% 0 repeat-y fixed; }
 #four { background: url(../img/img/Route66WinslowAZ.jpg) 50% 0 no-repeat fixed; }
@@ -138,6 +144,28 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 #one article a { text-decoration: underline; }
 #one article a:hover { color: #F90; }
 
+
+#one1 .titleScroll {
+    /*	background: url(../img/birds2.png) 50% 100px no-repeat fixed;*/
+    min-height: 500px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+#one1 img {margin-top: 45px; }
+#one1 article{
+    width: 100%;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+}
+#one1 article p,
+#one1 article a { color: #FFF; font-weight: bold;}
+#one1 article a { text-decoration: underline; }
+#one1 article a:hover { color: #F90; }
 /* Background Only */
 #two { padding: 50px 0;}
 
@@ -185,6 +213,14 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 	max-width: 1920px; 
 	position: relative; 
 	margin: 0 auto; 
+}
+#one1 .DelRey {
+    background: url(../img/birds1.png) transparent 50% 100px no-repeat fixed;
+    padding: 0; margin: 0;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
 }
 .DelRey { 
 	background: url(../img/birds1.png) transparent 50% 100px no-repeat fixed; 
