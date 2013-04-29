@@ -184,22 +184,29 @@ div.content {
     background-repeat: repeat-y;
     background-position: top left;
 }
-.home-div1{
+p[class*="-p1"]{
     font-weight: bold;
     margin-top: 5%;
     margin-left: 50%;
     line-height: 1.2em;
 }
-.home-div2{
-    position: relative;
-    font-size: 4.8em;
+p[class*="-p2"]{
     font-weight: bold;
     margin-top: 6%;
-    margin-right: 25%;
+    margin-left: 5%;
     line-height: 1.2em;
 }
-.home-div3{}
-.home-div4{}
+p[class*="-p3"]{
+    margin-top: 3%;
+    margin-left: 2%;
+    line-height: 1.0em;
+}
+p[class*="-p4"]{
+    font-family: "courier new";
+    margin-top: 7%;
+    margin-left: 2%;
+    line-height: 1.4em;
+}
 
 /*THE ABOUT PAGE*/
 .about-page {
@@ -268,7 +275,6 @@ article div {
     font: 'OswaldBook', Arial, sans-serif;
     font-size: 1.2em;
     margin-left: 5%;
-    line-height: 1.2em;
 }
 .font-white {
     color: #ffffff;
@@ -276,6 +282,7 @@ article div {
 .font-red {
     color: #ec4732;
 }
+
 .font-smaller {
     font-size: 1.0em;
 }
@@ -367,11 +374,11 @@ article div {
         font-size: 2.8em;
     }
     /* HOME PAGE */
-    .home-div1{
+    p[class*="-p1"]{
         margin-left: 20%;
         line-height: 1.2em;
     }
-    .home-div2{
+    p[class*="-p2"]{
         margin-top: 10%;
         line-height: 1.2em;
     }
