@@ -94,7 +94,7 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 
 .journal { 
 	/*height: 1000px;*/ 
-	padding: 0; margin: 0; 
+	padding: 0;
 	width: 100%; 
 	max-width: 1920px; 
 	position: relative; 
@@ -126,7 +126,6 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 /*	background: url(../img/birds2.png) 50% 100px no-repeat fixed;*/
 	min-height: 500px;
 	padding: 0;
-	margin: 0;
 	width: 100%;
 	max-width: 1920px;
 	position: relative;
@@ -149,7 +148,6 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
     /*	background: url(../img/birds2.png) 50% 100px no-repeat fixed;*/
     min-height: 500px;
     padding: 0;
-    margin: 0;
     width: 100%;
     max-width: 1920px;
     position: relative;

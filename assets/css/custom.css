@@ -62,7 +62,7 @@
 .navbar-inverse .nav > li > a {
   font: 18px/27px 'OswaldBook', Arial, sans-serif;
   font-size: 1.4em;
-  color: ED4732;
+  color: #ED4732;
 }
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
@@ -108,6 +108,7 @@ body {
 	/* Remove margins and all that */
 	margin: 0;
 	padding: 0px 0px 0px 0px;
+
 }
 #header {
 	width: 100%;
@@ -167,20 +168,47 @@ div.content {
 .current {
 	  color: #ED4732;
 }
-.about-page, #twitter-page, .portfolio-page {
+.about-page, #twitter-page, .portfolio-page, .contact-page {
 	margin-bottom: -70px;
-	border: none;	
+	border: none;
 }
 /*THE HOME PAGE*/ 
 .home-page {
-	background-color: #3097b9;
-	box-shadow: inset 0 250px 600px #59C1D9, 0px 0px 60px rgba(0, 0, 0, 0.4);
-} 	
+    height: 870px;
+    margin-bottom: -70px;
+    background-color: #202020;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.4);
+/*	background-color: #3097b9;
+	box-shadow: inset 0 250px 600px #59C1D9, 0px 0px 60px rgba(0, 0, 0, 0.4);*/
+    background-image: url("../img/bg-dash.png");
+    background-repeat: repeat-y;
+    background-position: top left;
+}
+.home-div1{
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 50%;
+    line-height: 1.2em;
+}
+.home-div2{
+    position: relative;
+    font-size: 4.8em;
+    font-weight: bold;
+    margin-top: 6%;
+    margin-right: 25%;
+    line-height: 1.2em;
+}
+.home-div3{}
+.home-div4{}
+
 /*THE ABOUT PAGE*/
 .about-page {
 	background-color: #202020;
 	box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.4);
 	height: 900px;
+    background-image: url("../img/bg-dash.png");
+    background-repeat: repeat-y;
+    background-position: 0 -870px;
 }
 .about-page .content {
 	color: #FFFFFF;
@@ -193,19 +221,72 @@ div.content {
 
 /*THE PORTFOLIO PAGE*/
 .portfolio-page {
-	background-color: #00d907;
-	box-shadow: inset 0 250px 600px #59d95d, 0px 0px 60px rgba(0, 0, 0, 0.4);
+	background-color: #00d9ad;
+	box-shadow: inset 0 250px 600px #0287d9, 0px 0px 60px rgba(0, 202, 216, 0.40);
 	height: 900px;
+    background-image: url("../img/bg-dash.png");
+    background-repeat: repeat-y;
+    background-position: 0 -2070px;
 }
 /*THE BLOG PAGE*/
 .blog-page {
-	background-color: #00d907;
-	box-shadow: inset 0 250px 600px #59d95d, 0px 0px 60px rgba(0, 0, 0, 0.4);
+	background-color: #d9ab23;
+	box-shadow: inset 0 250px 600px #cfd900, 0px 0px 60px rgba(0, 0, 0, 0.4);
+    background-image: url("../img/bg-dash.png");
+    background-repeat: repeat-y;
+    background-position: 0 -2930px;
 }
 /*THE CONTACT PAGE*/
 .contact-page {
 	background-color: #00d907;
 	box-shadow: inset 0 250px 600px #59d95d, 0px 0px 60px rgba(0, 0, 0, 0.4);
+
+}
+.contact-page .content {
+    padding-top: 117px;
+}
+article div {
+    width: 100%;
+    text-align: center;
+}
+.contact-form {
+    margin: 0 auto 0 auto;
+    width: 50%;
+    height: 400px;
+    background-color: #212120;
+ }
+
+.contact-footer {
+    margin: 0;
+    width: 100%;
+    height: 231px;
+    background-image: url("../img/footer.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.content {
+    font: 'OswaldBook', Arial, sans-serif;
+    font-size: 1.2em;
+    margin-left: 5%;
+    line-height: 1.2em;
+}
+.font-white {
+    color: #ffffff;
+}
+.font-red {
+    color: #ec4732;
+}
+.font-smaller {
+    font-size: 1.0em;
+}
+.font-small {
+    font-size: 1.2em;
+}
+.font-big {
+    font-size: 2.6em;
+}
+.font-bigger {
+    font-size: 4.8em;
 }
 
 
@@ -271,7 +352,28 @@ div.content {
 		height: 0px;
 	}
 	[class*="heading-"] span {
-	margin: 0;
-}
+	    margin: 0;
+    }
+    .font-smaller {
+        font-size: 0.8em;
+    }
+    .font-small {
+        font-size: 1.0em;
+    }
+    .font-big {
+        font-size: 1.6em;
+    }
+    .font-bigger {
+        font-size: 2.8em;
+    }
+    /* HOME PAGE */
+    .home-div1{
+        margin-left: 20%;
+        line-height: 1.2em;
+    }
+    .home-div2{
+        margin-top: 10%;
+        line-height: 1.2em;
+    }
 
 }
