@@ -15,8 +15,8 @@ $(document).ready(function() {
 			$('[data-full="true"]').css({'width' : winWidth+'px', 'height' : winHeight+70+'px'});
 			$('#home').css({'width' : winWidth+'px', 'height' : winHeight+'px'});
 		}
-			
-		
+
+
 		// Remove classes
 		$('#menu a').removeClass('active');
 		
@@ -82,14 +82,14 @@ $(document).ready(function() {
 
 	
 	/* RUN ALL FUNCTIONS */
-	getSize();
+	//getSize();
 	///$(window).resize(getSize);
 	//$(window).scroll(getSize);
 	
 });
 $(function() {
 	$("#submit").hide();
-	$('#header-mobile form select option').click(function() {
+	$('.scrollm').click(function() {
 		// Get the hash of the anchor
 		var hash = $(this).attr('value');
 		// Get the offset (i.e. what height it is at on the document) plus 2 
