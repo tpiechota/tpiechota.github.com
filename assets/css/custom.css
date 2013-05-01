@@ -168,15 +168,9 @@ div.content {
 .current {
 	  color: #ED4732;
 }
-<<<<<<< HEAD
-.about-page, #twitter-page, .portfolio-page {
-	margin-bottom: -70px;
-	border: none;	
-=======
 .about-page, #twitter-page, .portfolio-page, .contact-page {
 	margin-bottom: -70px;
 	border: none;
->>>>>>> develop
 }
 /*THE HOME PAGE*/ 
 .home-page {
