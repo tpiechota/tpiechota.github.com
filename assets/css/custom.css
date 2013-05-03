@@ -144,6 +144,9 @@ div.page-padding {
 	font: 18px/27px 'OswaldBook', Arial, sans-serif;
 	font-size: 5em;
 }
+.bg-dark {
+    background-color: #202020;
+}
 [class*="heading-"] span {
 	margin: 0 10% 0 10%;
 }
@@ -168,14 +171,14 @@ div.content {
 .current {
 	  color: #ED4732;
 }
-.about-page, #twitter-page, .portfolio-page, .contact-page {
+#social-page, .about-page, #twitter-page, .portfolio-page, .contact-page {
 	margin-bottom: -70px;
 	border: none;
 }
 /*THE HOME PAGE*/ 
 .home-page {
-    height: 870px;
-    margin-bottom: -70px;
+    min-height: 870px;
+    margin: 0 0 -70px 0;
     background-color: #202020;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.4);
 /*	background-color: #3097b9;
@@ -183,39 +186,63 @@ div.content {
     background-image: url("../img/bg-dash.png");
     background-repeat: repeat-y;
     background-position: top left;
+    line-height: 5.2em;
 }
-p[class*="-p1"]{
-    font-weight: bold;
-    margin-top: 5%;
+div[class*="-p1"], div[class*="-p2"], div[class*="-p3"], div[class*="-p4"] {
+    line-height: 2.0em;
+}
+div[class*="-p1"]{
     margin-left: 50%;
-    line-height: 1.2em;
 }
-p[class*="-p2"]{
-    font-weight: bold;
-    margin-top: 2%;
+div[class*="-p2"]{
     margin-left: 5%;
-    line-height: 1.2em;
+    margin-top: -3%;
 }
-p[class*="-p3"]{
-    margin-top: 6%;
-    margin-left: 2%;
-    line-height: 1.0em;
+div[class*="-p3"]{
+    margin-left: 1%;
+    margin-top: 3%;
 }
-p[class*="-p4"]{
+div[class*="-p4"]{
     font-family: "courier new", Helvetica, sans-serif;
-    margin-top: 7%;
-    margin-left: 2%;
-    line-height: 1.4em;
+    margin: 2% auto 2% 35%;
+    text-align: left;
+    line-height: 1.1;
+}
+
+/* SOCIAL NETWORKS */
+
+article div.social {
+    margin-top: 8%;
+    margin-bottom: auto;
+}
+div.social-twitter, div.social-facebook, div.social-skype {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.social-twitter {
+    background: url("../img/social/twitter.png") no-repeat top;
+}
+.social-facebook {
+    background: url("../img/social/facebook.png") no-repeat top;
+}
+.social-skype {
+    background: url("../img/social/skype.png") no-repeat top;
+}
+.social-twitter:hover, .social-facebook:hover, .social-skype:hover {
+    background-position: 0px -200px;
+    cursor: pointer;
 }
 
 /*THE ABOUT PAGE*/
 .about-page {
-	background-color: #202020;
+    background-image: url("../img/bg_tp.png");
+    background-repeat: no-repeat;
+    background-position: right;
 	box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.4);
 	height: 900px;
-    background-image: url("../img/bg-dash.png");
-    background-repeat: repeat-y;
-    background-position: 0 -870px;
 }
 .about-page .content {
 	color: #FFFFFF;
@@ -290,7 +317,7 @@ article div {
 .content {
     font: 'OswaldBook', Arial, sans-serif;
     font-size: 1.2em;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
 }
 .font-white {
     color: #ffffff;
@@ -305,11 +332,17 @@ article div {
 .font-small {
     font-size: 1.2em;
 }
+.font-normal {
+    font-size: 2.1em;
+}
 .font-big {
     font-size: 2.6em;
 }
 .font-bigger {
-    font-size: 4.8em;
+     font-size: 4.8em;
+}
+.font-bold {
+    font-weight: bold;
 }
 
 

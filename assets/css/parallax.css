@@ -115,6 +115,14 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
     background-size: 100%;
     background-position: bottom;
 }
+#one2 { /*	background-color: #3097b9;
+	box-shadow: inset 0 250px 600px #59C1D9, 0px 0px 60px rgba(0, 0, 0, 0.4);*/
+   background: url(../img/bg_network.jpg) 0 0 repeat-y; background-size: auto;
+     /*background-image: url(../img/bg_network.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;*/
+}
 
 #two { background: url(../img/birds1.png) 50% 0 no-repeat fixed; }
 #three { background: url(../img/bg3.jpg) 50% 0 repeat-y fixed; }
@@ -134,7 +142,7 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 #one img {margin-top: 45px; }
 #one article{
 	width: 100%;
-	top: 50px;
+	top: 25px;
 	position: absolute;
 	text-align: center;
 }
@@ -145,6 +153,27 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 
 
 #one1 .titleScroll {
+                                          /*	background: url(../img/birds2.png) 50% 100px no-repeat fixed;*/
+                                          min-height: 500px;
+                                          padding: 0;
+                                          width: 100%;
+                                          max-width: 1920px;
+                                          position: relative;
+                                          margin: 0 auto;
+                                      }
+#one1 img {margin-top: 45px; }
+#one1 article{
+    width: 100%;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+}
+#one2 article p,
+#one2 article a { color: #FFF; font-weight: bold;}
+#one2 article a { text-decoration: underline; }
+#one2 article a:hover { color: #F90; }
+
+#one2 .titleScroll {
     /*	background: url(../img/birds2.png) 50% 100px no-repeat fixed;*/
     min-height: 500px;
     padding: 0;
@@ -153,17 +182,19 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
     position: relative;
     margin: 0 auto;
 }
-#one1 img {margin-top: 45px; }
-#one1 article{
+#one2 img {margin-top: 45px; }
+#one2 article{
     width: 100%;
     top: 50px;
     position: absolute;
     text-align: center;
 }
-#one1 article p,
-#one1 article a { color: #FFF; font-weight: bold;}
-#one1 article a { text-decoration: underline; }
-#one1 article a:hover { color: #F90; }
+#one2 article p,
+#one2 article a { color: #FFF; font-weight: bold;}
+#one2 article a { text-decoration: underline; }
+#one2 article a:hover { color: #F90; }
+
+
 /* Background Only */
 #two { padding: 50px 0;}
 
@@ -214,6 +245,14 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 }
 #one1 .DelRey {
     background: url(../img/birds1.png) transparent 50% 100px no-repeat fixed;
+    padding: 0; margin: 0;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+#one2 .DelRey {
+    background: url(../img/bg_network.jpg) transparent 50% 100px no-repeat fixed;
     padding: 0; margin: 0;
     width: 100%;
     max-width: 1920px;
