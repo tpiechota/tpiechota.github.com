@@ -14,7 +14,6 @@
 <!--<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />-->
 <link href="assets/css/parallax.css" rel="stylesheet" type="text/css" >
 <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
-
 </head>
 <body>
 <div id="home">
@@ -74,12 +73,8 @@
                             <div class="home-p0 font-big font-white"><span class="font-white">Hi<span class="font-red font-big font-bold">&nbsp;I</span>'m Thomas</span></div>
                             <div class="home-p1 font-bigger font-white">I <span class="font-red font-bold">design</span></div>
                             <div class="home-p2 font-bigger font-white">and <span class="font-red font-bold">develop</span></div>
-                            <div class="home-p3 font-normal font-white">dynamic <span class="font-red font-bold font-bigger ">web</span> sites &amp; <span class="font-red font-bold font-normal">applications</span></div>
-                            <div class="home-p4 font-big font-white">/* I als&#216; */<br />
-                                do{<br />
-                                &nbsp;&nbsp;&nbsp;some pr&#216;gramming;<br />
-                                }while(true);<br />
-                                }</div>
+                            <div class="home-p3 font-normal font-white">dynamic <span class="font-red font-bold font-bigger ">web</span> sites &amp; <span class="font-red font-bold font-small">applications</span></div>
+                            <div class="home-p4 font-big font-white">/* I als&#216; */ do{ some pr&#216;gramming; }( t&#216;&#216; ); }</div>
                         </div>
                     </div>
                 </div>
@@ -125,7 +120,7 @@
             <div data-full="false">
                 <div class="header-content">
                     <div>
-                        <p class="heading-about bg-dark"><span class="pull-right font-white">ABOUT ME</span>&nbsp;</p>
+                        <p class="heading-about"><span class="pull-right">ABOUT ME</span>&nbsp;</p>
                     </div>
                 </div>
             </div>
@@ -134,8 +129,54 @@
     <div class="row-fluid">
         <div class="span12">
             <div data-full="true">
-                <div class="offset1 span10 offset1">
+                <div class="span12">
+                    <div class="about-content">
+                        <div class="span6">
+                            <div class="about-career">
+                                <span class="font-bold font-red font-big">Career</span>
+                                <ul>
+                                    <li><a class="about-career-title" href="http://www.venueone.com/" target="_blank">VenueOne Entertainment Limited (Internship)</a>
+                                        <ul>
+                                            <li>CSS developer</li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="about-career-title" href="https://www.hurt.com.pl" target="_blank">&quot;Baltrade&quot; R. Czesnowski, B. Czesnowska Sp.J.</a>
+                                        <ul>
+                                            <li>Designing and maintaining company Web Sites</li>
+                                            <li>Search engine optimisation (SEO)</li>
+                                            <li>Computer maintenance</li>
+                                            <li>Network administration</li>
+                                            <li>Troubleshooting of financial applications</li>
+                                            <li>System backups</li>
+                                            <li>Creating advertisements, catalogues, business cards</li>
+                                            <li>Creating Export/Import reports</li>
+                                            <li>Creating Marketing & Tele-Marketing campaigns</li>
+                                        </ul>
+                                    </li>
 
+                                </ul>
+                            </div>
+                            <div class="about-edu">
+                                <span class="font-bold font-red font-big">Education and Training</span>
+                                <ul>
+                                    <li><a class="about-edu-title" href="http://www.cct.ie" target="_blank">CCT - College of Computer Training</a>
+                                        <ul><li>BSc with Honours in Computer Science</li></ul>
+                                    </li>
+                                    <li><a class="about-edu-title" href="http://www.dorset-college.ie" target="_blank">Dorset College</a>
+                                        <ul>
+                                            <li><a href="http://www.ciwcertified.com/certifications/master_designer.php" target="_blank">Master CIW Designer</a> - Certified Internet Web Professional</li>
+                                            <li><a href="http://www.ciwcertified.com/certifications/professional.php" target="_blank">CIW Professional</a> - Certified Internet Web Professional</li>
+                                            <li><a href="http://www.ciwcertified.com/certifications" target="_blank">CIW v5 Associate</a> - Certified Internet Web Professional</li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="about-edu-title" href="http://www.ug.edu.pl/en/" target="_blank">University of Gdansk</a>
+                                        <ul><li>MSc in Computer Science and Econometrics</li></ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="span6 about-skills"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -245,9 +286,11 @@
                         <div>
                             <div class="contact-form">
                                 <form>
-                                    <input type="text" style="width: 50%" />
+                                    <label for="email">email</label>
+                                    <input name="email" id="email" type="text" style="width: 50%" />
                                     <br />
-                                    <input type="text" style="width: 50%" />
+                                    <label for="subject">subject</label>
+                                    <input name="subject" id="subject"  type="text" style="width: 50%" />
                                     <br />
                                     <button type="submit">send</button>
                                 </form>
@@ -290,7 +333,8 @@
     <script src="assets/js/bootstrap-collapse.js"></script>
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-typeahead.js"></script>
-	
+
+
 	<script type="text/javascript">
         jQuery(document).ready(function($){
             $(".scroll").click(function(event){
@@ -299,7 +343,17 @@
             });
         });
     </script>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<script>
+        !function(d,s,id){
+            var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+            if(!d.getElementById(id)){
+                js=d.createElement(s);
+                js.id=id;
+                js.src=p+"://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js,fjs);
+            }
+        }(document,"script","twitter-wjs");
+    </script>
     <script>
         $('a.scroll').click(function(){
             if ($('.btn').is(":visible")){
