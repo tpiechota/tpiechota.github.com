@@ -207,7 +207,7 @@ div[class*="-p3"]{
 }
 div[class*="-p4"]{
     font-family: "courier new", Helvetica, sans-serif;
-    margin: 2% auto 2% 35%;
+    margin: 2% auto 2% 32%;
     text-align: left;
     line-height: 1.1;
 }
@@ -247,6 +247,7 @@ div.social-twitter, div.social-facebook, div.social-skype {
     background-position: bottom right;
 	box-shadow: 0 0 60px rgba(0, 0, 0, 0.4);
 	min-height: 820px;
+    margin-bottom: 0;
 }
 .about-content div[class^="span"] {
     margin: 20px 0 20px 0;
@@ -264,38 +265,58 @@ div.social-twitter, div.social-facebook, div.social-skype {
     -o-transition: all 300ms ease 0s;
     transition: all 300ms ease 0s;
 }
-.about-career, .about-edu {
-     padding: 10px;
+.about-hobbies {
+    text-align: center;
+}
+.about-career, .about-edu, .about-hobbies {
+    padding: 10px;
 }
 
-a.about-career-title, a.about-edu-title {
+a.about-career-title, a.about-edu-title, .about-hobbies {
     color: #df8505;
 }
-.about-career span + ul, .about-edu span + ul {
+.about-career span + ul, .about-edu span + ul, .about-hobbies span + ul {
     margin-top: 20px;
 }
-.about-career span + ul > li, .about-edu span + ul > li {
+.about-career span + ul > li, .about-edu span + ul > li, .about-hobbies span + ul > li {
     margin-bottom: 20px;
 }
-.about-career ul li, .about-edu ul li {
-    line-height: 1.5;
+.about-career ul li, .about-edu ul li, .about-hobbies ul li {
+    line-height: 1.4;
     color: #ffffff;
 }
-.about-career ul li > ul, .about-edu ul li > ul {
+.about-career ul li > ul, .about-edu ul li > ul, .about-hobbies ul li > ul {
     list-style: square;
 }
-.about-career li a, .about-edu li a {
+.about-career li a, .about-edu li a, .about-hobbies li a {
     font-weight: bold;
 }
-.about-skills {
+.about-hobbies ul li {
+    display: inline;
+    padding: 0 90px 0 90px;
+}
+.about-skills-a {
     height: 582px;
-    background: url("../img/skills1.png") no-repeat 0px 20px;
+    background: url("../img/skillsa.png") no-repeat 0 20px;
+    background-position: top right;
     margin-bottom: 20px;
+}
+.about-skills-b {
+    height: 582px;
+    background: url("../img/skillsb.png") no-repeat 0 20px;
+    background-position: top left;
+    margin-bottom: 20px;
+}
+hr {
+    border-bottom: 1px solid #333333;
+    border-top: 1px solid #111111;
+    height: 0;
+    margin: 4px 0;
 }
 /*THE TWITTER SECTION*/
 .twitter-page #one {
     background-color: #00d9ad;
-    box-shadow: inset 0 250px 600px #0287d9, 0px 0px 60px rgba(0, 202, 216, 0.40);
+    box-shadow: inset 0 250px 600px #0287d9, 0 0 60px rgba(0, 202, 216, 0.40);
 /*	background-color: #3097b9;
 	box-shadow: inset 0 250px 600px #59C1D9, 0px 0px 60px rgba(0, 0, 0, 0.4);*/
 }
@@ -305,7 +326,7 @@ a.about-career-title, a.about-edu-title {
     text-align: center;
     height: 450px;
     background-color: #00d9ad;
-    box-shadow: inset 0 250px 600px #0287d9, 0px 0px 60px rgba(0, 202, 216, 0.40);
+    box-shadow: inset 0 250px 600px #0287d9, 0 0 60px rgba(0, 202, 216, 0.40);
     background-image: url("../img/bg-dash.png");
     background-repeat: repeat-y;
     background-position: 0 -1790px;
@@ -488,5 +509,5 @@ article div {
         margin-top: 10%;
         line-height: 1.2em;
     }
-
+    /* HOME PAGE */
 }

@@ -4,14 +4,15 @@
     <list default="true" id="1575c3f2-3c1d-4ea0-ae27-26d72e420613" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/custom.css" afterPath="$PROJECT_DIR$/assets/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/parallax.css" afterPath="$PROJECT_DIR$/assets/css/parallax.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tpiechota.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367590299455" ignored="false" />
-    <file path="/index.html" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367617961059" ignored="false" />
-    <file path="/custom.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367620519945" ignored="false" />
-    <file path="/parallax.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367572673447" ignored="false" />
+    <file path="/Dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367620646336" ignored="false" />
+    <file path="/index.html" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367624785267" ignored="false" />
+    <file path="/custom.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367625669147" ignored="false" />
+    <file path="/parallax.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367625621715" ignored="false" />
     <file path="/dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367270931726" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="64" selection-start="8007" selection-end="8007" vertical-scroll-proportion="-25.692308">
+            <state line="220" column="63" selection-start="10878" selection-end="10878" vertical-scroll-proportion="0.41677254">
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="250" column="33" selection-start="5997" selection-end="5997" vertical-scroll-proportion="0.6604245">
+            <state line="315" column="23" selection-start="7652" selection-end="7652" vertical-scroll-proportion="-8.92">
               <folding />
             </state>
           </provider>
@@ -56,7 +57,7 @@
       <file leaf-file-name="parallax.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/parallax.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="6" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0">
+            <state line="108" column="49" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,9 +83,9 @@
       <list>
         <option value="$PROJECT_DIR$/assets/js/portfolio.js" />
         <option value="$PROJECT_DIR$/assets/css/portfolio.css" />
+        <option value="$PROJECT_DIR$/assets/css/custom.css" />
         <option value="$PROJECT_DIR$/assets/css/parallax.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/css/custom.css" />
       </list>
     </option>
   </component>
@@ -155,6 +156,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpiechota.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpiechota.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,7 +289,11 @@
       <created>1367590315363</created>
       <updated>1367590315363</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="An update on portfolio from PHPStorm 6.0.1 +++++++">
+      <created>1367620671212</created>
+      <updated>1367620671212</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -340,7 +363,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="An update on portfolio from PHPStorm 6.0.1 ++++++" />
+    <option name="LAST_COMMIT_MESSAGE" value="An update on portfolio from PHPStorm 6.0.1 +++++++" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -361,6 +384,7 @@
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 ++++" />
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 +++++" />
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 ++++++" />
+    <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 +++++++" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -425,34 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tpiechota.github.com - Copy (2)/assets/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="371" column="24" selection-start="8573" selection-end="8573" vertical-scroll-proportion="1.2191192">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpiechota.github.com - Copy (2)/assets/css/parallax.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tpiechota.github.com - Copy (2)/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="276" column="0" selection-start="10729" selection-end="11655" vertical-scroll-proportion="0.21860987">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/parallax.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="6" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="153" column="17" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.0">
@@ -467,20 +463,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="315" column="23" selection-start="7652" selection-end="7652" vertical-scroll-proportion="-8.92">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/parallax.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="49" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="64" selection-start="8007" selection-end="8007" vertical-scroll-proportion="-25.692308">
+        <state line="220" column="63" selection-start="10878" selection-end="10878" vertical-scroll-proportion="0.41677254">
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="33" selection-start="5997" selection-end="5997" vertical-scroll-proportion="0.6604245">
-          <folding />
         </state>
       </provider>
     </entry>
