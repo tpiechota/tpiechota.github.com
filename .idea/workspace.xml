@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1575c3f2-3c1d-4ea0-ae27-26d72e420613" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/custom.css" afterPath="$PROJECT_DIR$/assets/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/parallax.css" afterPath="$PROJECT_DIR$/assets/css/parallax.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tpiechota.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367620646336" ignored="false" />
+    <file path="/Dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367625850841" ignored="false" />
     <file path="/index.html" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367624785267" ignored="false" />
     <file path="/custom.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367625669147" ignored="false" />
     <file path="/parallax.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367625621715" ignored="false" />
@@ -293,7 +290,11 @@
       <created>1367620671212</created>
       <updated>1367620671212</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="An update on portfolio from PHPStorm 6.0.1 ++++++++">
+      <created>1367625855029</created>
+      <updated>1367625855029</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -363,7 +364,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="An update on portfolio from PHPStorm 6.0.1 +++++++" />
+    <option name="LAST_COMMIT_MESSAGE" value="An update on portfolio from PHPStorm 6.0.1 ++++++++" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -385,6 +386,7 @@
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 +++++" />
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 ++++++" />
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 +++++++" />
+    <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 ++++++++" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
