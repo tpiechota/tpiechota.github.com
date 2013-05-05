@@ -7,8 +7,8 @@
     </list>
     <ignored path="tpiechota.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367767245796" ignored="false" />
-    <file path="/index.html" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367767041338" ignored="false" />
+    <file path="/Dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367767311289" ignored="false" />
+    <file path="/index.html" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367767441734" ignored="false" />
     <file path="/custom.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367763749567" ignored="false" />
     <file path="/parallax.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367748212674" ignored="false" />
     <file path="/dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367270931726" ignored="false" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="730" column="50" selection-start="39922" selection-end="39925" vertical-scroll-proportion="13.947904">
+            <state line="242" column="35" selection-start="12533" selection-end="12533" vertical-scroll-proportion="0.26048285">
               <folding />
             </state>
           </provider>
@@ -245,7 +245,11 @@
       <created>1367767253578</created>
       <updated>1367767253578</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="An update on portfolio from PHPStorm 6.0.1 +++++++++++++++++">
+      <created>1367767316574</created>
+      <updated>1367767316574</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -430,7 +434,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="730" column="50" selection-start="39922" selection-end="39925" vertical-scroll-proportion="13.947904">
+        <state line="242" column="35" selection-start="12533" selection-end="12533" vertical-scroll-proportion="0.26048285">
           <folding />
         </state>
       </provider>
