@@ -203,83 +203,14 @@ body {
 	z-index: 1000;
 }
 
-/* ----- SERVICES PAGE ----- */
-
-#services {
-	background-color: #a3f226;
-	/* Again, this gradient acts as a background */
-	box-shadow: inset 0 250px 600px #c5f972, 0px 0px 60px rgba(0, 0, 0, 0.4); 
-}
-
-#services .content {
-	width: 80%;
-	margin: 0px auto;
-}
-
-#services .content div {
-	background-color: #f2fce1;
-	border: 2px solid #b3e361;
-	border-radius: 8px;
-	width: 30%;
-	height: 400px;
-	padding: 3%;
-	height: 60%;
-	float: left;
-	/* Border-box so borders dont affect width */
-	box-sizing: border-box;
-	margin-right: 3%;
-	box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
-}
-
-#services .content .box-2 {
-	position: relative;
-	z-index: 500;
-}
-#services .content a {
-	width: 100%;
-	background-color: #2caccb;
-	padding: 10px 0;
-	color: #fff;
-	font-family: 'Istok Web', sans-serif;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 6px;
-	display: block;
-	box-shadow: inset 0 10px 20px rgba(255,255,255,0.2);
-}
-
-#services .content a:hover {
-	box-shadow: inset 0 -10px 20px rgba(255,255,255,0.2);	
-}
-
-#services a:active {
-	box-shadow: inset 0 -10px 20px rgba(255,255,255,0.2), inset 0px 0px 10px rgba(0,0,0,0.1);	
-}
-
-#services .content h2 {
-	margin: 0; padding: 0 0 10px 0;
-	border-bottom: 5px solid #e2ead0;
-	font-family: 'Istok Web', sans-serif;
-	text-transform: uppercase;
-	font-variant: normal;
-}
-
-#services .content p {
-	line-height: 20px;
-	font-size: 0.9em;
-	text-align: justify;
-	color: #656565;
-	text-decoration: none;
-}
-
-
 /* ----- CONTACT PAGE ----- */
 
 
 /* For smaller screens */
 @media (max-width: 960px) {
 	.content { top: 160px !important; }
-	#about .content { margin: 0px auto; }
+
+	#about .content { margin: 0 auto; }
 	.is { display: none; }
 	#header h1 {
 		width: 100%;

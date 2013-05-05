@@ -84,7 +84,7 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 	padding: 10px 20px; 
 	border: 10px solid #96F;
 	box-shadow: 8px 8px 8px #999;
-	-moz-border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0 35px 0;
 	-moz-box-shadow: 8px 8px 8px #999;
 	-moz-border-radius-bottomright: 35px;
 	-webkit-box-shadow: 8px 8px 8px #999;
@@ -106,7 +106,7 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 
 #one { /*	background-color: #3097b9;
 	box-shadow: inset 0 250px 600px #59C1D9, 0px 0px 60px rgba(0, 0, 0, 0.4);*/
-	background: url(../img/bg3.jpg) 50% 0 repeat-y; background-size: auto;}
+	background: url(../img/bg3.jpg) repeat-y 50% 0; background-size: auto;}
 #one1 { /*	background-color: #3097b9;
 	box-shadow: inset 0 250px 600px #59C1D9, 0px 0px 60px rgba(0, 0, 0, 0.4);*/
 	/*background: url(../img/bg4.jpg) 0 0 repeat-y; background-size: auto;*/
@@ -114,6 +114,18 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
     background-repeat: repeat-y;
     background-size: 100%;
     background-position: bottom;
+}
+#one2 { /*	background-color: #3097b9;
+	box-shadow: inset 0 250px 600px #59C1D9, 0px 0px 60px rgba(0, 0, 0, 0.4);*/
+   background: url(../img/bg_network.jpg) repeat-y 0 0; background-size: auto;
+     /*background-image: url(../img/bg_network.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;*/
+}
+#one3 { /*	background-color: #3097b9;
+	box-shadow: inset 0 250px 600px #59C1D9, 0px 0px 60px rgba(0, 0, 0, 0.4);*/
+    background: url(../img/art/radial3.jpg) repeat-y 0 0; background-size: cover;
 }
 
 #two { background: url(../img/birds1.png) 50% 0 no-repeat fixed; }
@@ -134,24 +146,24 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 #one img {margin-top: 45px; }
 #one article{
 	width: 100%;
-	top: 50px;
+	top: 25px;
 	position: absolute;
 	text-align: center;
 }
 #one article p,
 #one article a { color: #FFF; font-weight: bold;}
 #one article a { text-decoration: underline; }
-#one article a:hover { color: #F90; }
+/*#one article a:hover { color: #F90; }*/
 
 
 #one1 .titleScroll {
-    /*	background: url(../img/birds2.png) 50% 100px no-repeat fixed;*/
-    min-height: 500px;
-    padding: 0;
-    width: 100%;
-    max-width: 1920px;
-    position: relative;
-    margin: 0 auto;
+      /*	background: url(../img/birds2.png) 50% 100px no-repeat fixed;*/
+      min-height: 500px;
+      padding: 0;
+      width: 100%;
+      max-width: 1920px;
+      position: relative;
+      margin: 0 auto;
 }
 #one1 img {margin-top: 45px; }
 #one1 article{
@@ -160,10 +172,50 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
     position: absolute;
     text-align: center;
 }
-#one1 article p,
-#one1 article a { color: #FFF; font-weight: bold;}
-#one1 article a { text-decoration: underline; }
-#one1 article a:hover { color: #F90; }
+
+
+#one2 .titleScroll {
+    /*	background: url(../img/birds2.png) 50% 100px no-repeat fixed;*/
+    min-height: 500px;
+    padding: 0;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+#one2 img {margin-top: 45px; }
+#one2 article{
+    width: 100%;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+}
+#one2 article p,
+#one2 article a { color: #FFF; font-weight: bold;}
+#one2 article a { text-decoration: underline; }
+/*#one2 article a:hover { color: #F90; }*/
+
+#one3 .titleScroll {
+    /*	background: url(../img/birds2.png) 50% 100px no-repeat fixed;*/
+    min-height: 500px;
+    padding: 0;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+#one3 img {margin-top: 45px; }
+#one3 article{
+    width: 100%;
+    height: 100%;
+    top: 25px;
+    position: absolute;
+    text-align: center;
+}
+#one3 article p,
+    /*#one3 article a { color: #FFF; font-weight: bold;}
+    #one3 article a { text-decoration: underline; }
+    #one3 article a:hover { color: #F90; }*/
 /* Background Only */
 #two { padding: 50px 0;}
 
@@ -189,22 +241,7 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 #two article a { color: #ff0;}
 
 /* Photograph */
-#three article { 
-	background: url(../img/birds1.png) no-repeat; 
-	width: 100%
-
-}
-
-#three .DelRey { 
-	background: url(../img/birds1.png) transparent 50% 100px no-repeat fixed; 
-	min-height: 500px;
-	padding: 0; margin: 0; 
-	width: 100%; 
-	max-width: 1920px; 
-	position: relative; 
-	margin: 0 auto; 
-}
-#one .DelRey { 
+#one .DelRey {
 	background: url(../img/birds1.png) transparent 50% 100px no-repeat fixed; 
 	padding: 0; margin: 0; 
 	width: 100%; 
@@ -220,6 +257,22 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
     position: relative;
     margin: 0 auto;
 }
+#one2 .DelRey {
+    background: url(../img/bg_network.jpg) transparent 50% 100px no-repeat fixed;
+    padding: 0; margin: 0;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+#one3 .DelRey {
+    background: url(../img/contact.jpg) transparent 50% 100px no-repeat fixed;
+    padding: 0;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
 .DelRey { 
 	background: url(../img/birds1.png) transparent 50% 100px no-repeat fixed; 
 	padding: 0; margin: 0; 
@@ -227,105 +280,5 @@ article p { font-family: 'Oxygen Mono', sans-serif; font-size:14px; margin: 10px
 	max-width: 1920px; 
 	position: relative; 
 	margin: 0 auto; 
-}
-
-
-
-
-
-#three article p { width: 300px; margin-bottom: 25px; }
-
-/* HTML5 Video */
-#four article {
-	text-align:justify; 
-	background: url(../img/img/bg_layer_grayGrain.png) repeat #333; 
-	margin-left: 10%; 
-	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
-	line-height: 1.5em; 
-	color: #fff; 
-	position: absolute; 
-	top: 30px;
-	padding: 10px 20px; 
-	border: 10px solid #B5B5B5;
-	box-shadow: 8px 8px 8px #999;
-	-moz-border-radius: 35px 0px 35px 0px;
-	-moz-box-shadow: 8px 8px 8px #999;
-	-moz-border-radius-bottomright: 35px;
-	-webkit-box-shadow: 8px 8px 8px #999;
-	-webkit-border-bottom-right-radius: 35px;
-	-webkit-border-top-left-radius: 35px;
-}
-
-#four article p { 
-	width: 300px;
-	margin: 50px 0;
-	font-family: 'Orienta', sans-serif; font-size:16px; margin: 10px 0; line-height:1.25em; color:#FFF;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
-	text-align:left; 
-}
-
-#four video { 
-	position: fixed; 
-	left: 50%; 
-	box-shadow: 0 0 25px rgba(0,0,0,0.7); 
-	z-index: 1;
-}
-
-#four article a {
-	font-family: 'Orienta', sans-serif; font-size:16px; margin: 10px 0; line-height:1.25em; color:#CFF;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-#four article a:hover { 
-	color: #F90; 
-}
-
-
-/* Thats All Folks */
-#five .thatsallfolks { 
-	background: url(../img/img/thats-all-folks.png) 40% 100px no-repeat fixed; 
-	height: 1000px; 
-	padding: 0; 
-	margin: 0; 
-	width: 100%;
-	max-width: 1920px; 
-	position: relative; 
-	margin: 0 auto; 
-}
-
-#five article p {
-	width: 12%;
-	margin: 100px;
-	font-family: 'Orienta', sans-serif; font-size:16px; margin: 10px 0; line-height:1.25em; color:#FFF;
-	font-weight: bold;
-	text-align: left; 
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
-	background: url(../img/img/bg_layer_grayGrain.png) repeat #333; 
-	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
-	line-height: 1.5em; 
-	color: #FFF; 
-	position: absolute; 
-	top: 30px;
-	padding: 10px 20px; 
-	border: 10px solid #B5B5B5;
-	box-shadow: 8px 8px 8px #999;
-	-moz-border-radius: 35px 0px 35px 0px;
-	-moz-box-shadow: 8px 8px 8px #999;
-	-moz-border-radius-bottomright: 35px;
-	-webkit-box-shadow: 8px 8px 8px #999;
-	-webkit-border-bottom-right-radius: 35px;
-	-webkit-border-top-left-radius: 35px;
-	text-decoration:none;
-}
-
-#five article a {
-	font-family: 'Orienta', sans-serif; font-size:16px; margin: 10px 0; line-height:1.25em; color:#CFF;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-#five article a:hover { 
-	color: #F90; 
 }
 
