@@ -6,11 +6,20 @@
     </list>
     <ignored path="tpiechota.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
+<<<<<<< HEAD
     <file path="/Dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367625850841" ignored="false" />
     <file path="/index.html" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367624785267" ignored="false" />
     <file path="/custom.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367625669147" ignored="false" />
     <file path="/parallax.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367625621715" ignored="false" />
+=======
+    <file path="/Dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367765647110" ignored="false" />
+    <file path="/index.html" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367765572871" ignored="false" />
+    <file path="/custom.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367763749567" ignored="false" />
+    <file path="/parallax.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367748212674" ignored="false" />
+>>>>>>> develop
     <file path="/dummy.txt" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367270931726" ignored="false" />
+    <file path="/gallery-overlay.js" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367708532242" ignored="false" />
+    <file path="/bootstrap.css" changelist="1575c3f2-3c1d-4ea0-ae27-26d72e420613" time="1367749124956" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +42,25 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="220" column="63" selection-start="10878" selection-end="10878" vertical-scroll-proportion="0.41677254">
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#article#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+=======
+            <state line="698" column="48" selection-start="38447" selection-end="38447" vertical-scroll-proportion="0.18181819">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parallax.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/parallax.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="245" column="0" selection-start="6729" selection-end="6729" vertical-scroll-proportion="0.0">
+              <folding />
+>>>>>>> develop
             </state>
           </provider>
         </entry>
@@ -45,6 +68,7 @@
       <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="315" column="23" selection-start="7652" selection-end="7652" vertical-scroll-proportion="-8.92">
               <folding />
             </state>
@@ -55,6 +79,9 @@
         <entry file="file://$PROJECT_DIR$/assets/css/parallax.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="108" column="49" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.0">
+=======
+            <state line="715" column="8" selection-start="16695" selection-end="16695" vertical-scroll-proportion="0.0">
+>>>>>>> develop
               <folding />
             </state>
           </provider>
@@ -79,7 +106,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/assets/js/portfolio.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/assets/css/portfolio.css" />
+=======
+        <option value="$PROJECT_DIR$/assets/js/gallery-overlay.js" />
+        <option value="$PROJECT_DIR$/assets/css/bootstrap.css" />
+>>>>>>> develop
         <option value="$PROJECT_DIR$/assets/css/custom.css" />
         <option value="$PROJECT_DIR$/assets/css/parallax.css" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -151,10 +183,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -170,6 +198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -202,6 +231,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+=======
+>>>>>>> develop
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -282,6 +313,7 @@
       <created>1367274821520</created>
       <updated>1367274821520</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00006" summary="An update on portfolio from PHPStorm 6.0.1 ++++++">
       <created>1367590315363</created>
       <updated>1367590315363</updated>
@@ -295,21 +327,39 @@
       <updated>1367625855029</updated>
     </task>
     <option name="localTasksCounter" value="9" />
+=======
+    <task id="LOCAL-00006" summary="An update on portfolio from PHPStorm 6.0.1 ++++++++++++++">
+      <created>1367765660002</created>
+      <updated>1367765660002</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+>>>>>>> develop
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17116061" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17116061" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> develop
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09495897" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19773096" sideWeight="0.9988277" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18962723" sideWeight="0.6705744" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+>>>>>>> develop
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -364,7 +414,11 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="An update on portfolio from PHPStorm 6.0.1 ++++++++" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="An update on portfolio from PHPStorm 6.0.1 ++++++++++++++" />
+>>>>>>> develop
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -384,9 +438,13 @@
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 +++" />
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 ++++" />
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 +++++" />
+<<<<<<< HEAD
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 ++++++" />
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 +++++++" />
     <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 ++++++++" />
+=======
+    <MESSAGE value="An update on portfolio from PHPStorm 6.0.1 ++++++++++++++" />
+>>>>>>> develop
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -423,6 +481,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
+<<<<<<< HEAD
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
@@ -432,11 +492,28 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/portfolio.js">
+>>>>>>> develop
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="6" selection-start="3110" selection-end="3110" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/folio/the_barkers.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/aurora.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/assets/js/parallax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="24" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
@@ -449,10 +526,16 @@
         <state line="2423" column="14" selection-start="54297" selection-end="54302" vertical-scroll-proportion="0.33375636">
           <folding />
         </state>
+=======
+    <entry file="file://$PROJECT_DIR$/assets/js/gallery-overlay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="72" selection-end="77" vertical-scroll-proportion="0.041062802" />
+>>>>>>> develop
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/portfolio.css">
+    <entry file="file://$PROJECT_DIR$/assets/js/parallax.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="153" column="17" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -461,20 +544,46 @@
     <entry file="file://$PROJECT_DIR$/assets/js/portfolio.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="41" selection-start="3432" selection-end="3434" vertical-scroll-proportion="0.5677966">
-          <folding />
-        </state>
+=======
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/tpiechota.github.com - Copy (2)/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="74" selection-start="4853" selection-end="4853" vertical-scroll-proportion="-1.2051557" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1183" column="0" selection-start="22003" selection-end="22055" vertical-scroll-proportion="703.9245" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="315" column="23" selection-start="7652" selection-end="7652" vertical-scroll-proportion="-8.92">
+        <state line="715" column="8" selection-start="16695" selection-end="16695" vertical-scroll-proportion="0.0">
+>>>>>>> develop
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/parallax.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="315" column="23" selection-start="7652" selection-end="7652" vertical-scroll-proportion="-8.92">
+=======
+        <state line="245" column="0" selection-start="6729" selection-end="6729" vertical-scroll-proportion="0.0">
+>>>>>>> develop
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/parallax.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="108" column="49" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.0">
+=======
+        <state line="698" column="48" selection-start="38447" selection-end="38447" vertical-scroll-proportion="0.18181819">
+>>>>>>> develop
           <folding />
         </state>
       </provider>
