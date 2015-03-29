@@ -767,11 +767,27 @@
     </script>
     <!-- Toggle gallery -->
     <script>
-        $(".item .item-overlay").hide();
+        /*$(".item .item-overlay").hide();
         $(".item img").click(function () {
             $(this).next(".item .item-overlay").slideToggle(500);
             $(this).toggleClass("expanded");
-        });
+        });*/
+        $(document).ready( function(){
+		$(".item .item-overlay").hide();	
+		$('.item').each( function() {		
+			var $item = $(this);		
+			$($item).click( function(e) {
+				e.preventDefault();
+				$div = $(".item-overlay", $item);
+				$div.slideToggle(500);
+				$(".item-overlay").not($div).slideUp();
+				return false;
+			});
+		});    
+		$('html').click(function(){
+			$(".item-overlay").slideUp();
+		});
+	});
     </script>
     <!-- Twitter -->
     <script>
