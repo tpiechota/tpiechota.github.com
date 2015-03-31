@@ -375,10 +375,11 @@ div.social-twitter, div.social-facebook, div.social-skype, div.social-linkedin {
 	background-color: #6f6f6f;
 }
 /* PORTFOLIO */
-#portfolkio .content {
+#portfolio .content {
 	clear: both;
 	height: auto;
     overflow: auto;
+	margin-bottom: 20px;
 }
 #portfolio .item {
 	clear: both;
@@ -456,14 +457,24 @@ div.social-twitter, div.social-facebook, div.social-skype, div.social-linkedin {
 	border-bottom: 5px solid #ed4732;
 	padding-bottom: 10px;
 }
-#web .container .row-fluid {
+#web .container .row-fluid, #art .container .row-fluid, #logo .container .row-fluid {
 	margin: 15px auto;
 	height: auto;
 }
-#web .container .col-md-3 {
+#web .container .col-md-3, #art .container .col-md-3, #logo .container .col-md-3 {
 	margin: 15px auto;
 }
-
+.modal-art .modal-content .modal-body img {
+	float: none;
+	padding: 5px;
+	background-color: #111;
+	border: 1px solid #EC4732;
+	margin: auto;
+}
+.modal-art .modal-content .modal-body img.img-modal {
+	float: none;
+	margin: 0 auto 0 auto;
+}
 .item-shadow {
   position: relative;
 }
