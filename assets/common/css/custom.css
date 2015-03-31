@@ -310,6 +310,7 @@ div.social-twitter, div.social-facebook, div.social-skype, div.social-linkedin {
 	clear: both;
 	height: auto;
     overflow: auto;
+	margin-top: 20px;
 }
 #about .job-empolyer {
 	color: #ec4732;
