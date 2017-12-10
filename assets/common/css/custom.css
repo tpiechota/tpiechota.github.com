@@ -61,7 +61,7 @@ nav.navbar {
 	/*background-image: linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
 	background-color: #1B1B1B;*/
 	background-image: linear-gradient(#222222, #111111);
-	background-repeat: repeat-x;;	
+	background-repeat: repeat-x;;
 }
 .navbar-nav > li > a {
 	color: #fff !important;
@@ -71,7 +71,7 @@ nav.navbar {
 	line-height: 80px;
 	padding: 0 15px;
 	text-decoration: none;
-    transition: all 250ms ease 0s;	
+    transition: all 250ms ease 0s;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .navbar-nav > li > a:hover,
@@ -143,7 +143,7 @@ nav.navbar {
     color: #ec4732;
 }
 .text-grey {
-	color: #666666;
+	color: #999999;
 }
 .bg-white {
 	background-color: #ffffff;
@@ -397,14 +397,14 @@ div.social-twitter, div.social-facebook, div.social-skype, div.social-linkedin {
 #portfolio .item {
 	clear: both;
 	background-color: #f6f6f6;
-	border: 1px solid #aaaaaa;	
+	border: 1px solid #aaaaaa;
     padding: 4px;
     border-radius: 4px;
     padding: 4px;
     transition: all 0.2s ease-in-out 0s;
 }
-#portfolio .item:hover {	
-	background-color: #eaeaea;    
+#portfolio .item:hover {
+	background-color: #eaeaea;
     transition: all 0.2s ease-in-out 0s;
 	cursor: pointer;
 }
@@ -421,13 +421,13 @@ div.social-twitter, div.social-facebook, div.social-skype, div.social-linkedin {
 	border: 1px solid rgba(237,71,50,0.7);
 	transition: all 0.2s ease-in-out 0s;
 }
-#portfolio .item:hover img {	
+#portfolio .item:hover img {
 	opacity: 0.8;
 }
 #portfolio .item-info {
 	color: #3f3f3f;
 	max-width: 250px;
-	margin: 0 auto;	
+	margin: 0 auto;
 	/*border-bottom: 5px solid #ed4732;
 	padding-bottom: 10px;*/
 }
@@ -466,7 +466,7 @@ div.social-twitter, div.social-facebook, div.social-skype, div.social-linkedin {
 }
 #portfolio .item-btn {
 	max-width: 250px;
-	margin: 0 auto;	
+	margin: 0 auto;
 	border-bottom: 5px solid #ed4732;
 	padding-bottom: 10px;
 }
@@ -509,7 +509,7 @@ div.social-twitter, div.social-facebook, div.social-skype, div.social-linkedin {
   -o-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
   transform: rotate(-3deg);
-  
+
   /*background: none repeat scroll 0 0 #333;
     bottom: 27px;
     box-shadow: 0 25px 10px #333;
@@ -547,7 +547,7 @@ div.social-twitter, div.social-facebook, div.social-skype, div.social-linkedin {
 	color: #ED4732;
 }
 #footer, .content:after {
-  height: 170px; 
+  height: 170px;
 }
 .page-contact .contact-form a:hover,
 .page-contact .contact-form a:focus {
@@ -616,13 +616,13 @@ div.arrow-up a:hover {
 }
 
 #footer hr {
-    
+
 }
 /* PARALLAX */
 section.module.parallax {
   background-position: left top;
   background-repeat: no-repeat;
-  background-attachment: fixed;  
+  background-attachment: fixed;
   height: 100%
 }
 section.module.parallax h1 {
@@ -649,12 +649,12 @@ section.module.parallax-2 {
 	}
 	/* SOCIAL NETWORKS */
 	#social div.content {
-		height: 220px;		
+		height: 220px;
 	}
-	#social div.content > div {			
+	#social div.content > div {
 		float: left;
 		width: 33%;
-		height: 100%;		
+		height: 100%;
 	}
 	div.social-twitter, div.social-facebook, div.social-skype, div.social-linkedin {
 		width: 50px;
@@ -703,12 +703,12 @@ section.module.parallax-2 {
 	}
 	/* SOCIAL NETWORKS */
 	#social div.content {
-		height: 120px;		
+		height: 120px;
 	}
-	#social div.content > div {			
+	#social div.content > div {
 		float: left;
 		width: 33%;
-		height: 100%;		
+		height: 100%;
 	}
 	div.social-twitter, div.social-facebook, div.social-skype, div.social-linkedin {
 		width: 50px;
